@@ -11,11 +11,8 @@ VROOM is the XR Telepresence technology probe/prototype system featured in these
 
 
 [![VROOM DEMO VIDEO](http://img.youtube.com/vi/9ZZ-YdUU01w/0.jpg)](http://www.youtube.com/watch?v=9ZZ-YdUU01w "VROOM Demo Video")
-
-
-[IMAGE Of VROOM](/Figure1-Overview.png)
-
-[IMAGE Of VROOM System Structure](/Figure1-System.png)
+<img src="/Figure1-Overview.png" width=50% height=50%>
+<img src="/Figure2-System.jpg" width=80% height=80%>
 
 Contained in this repository is the source code for the VROOM technology probe, slightly modified to include only open-source components. **Please note that as this is a research prototype, the code is not stable and may not be fully functional on your environment.** Furthermore, getting the experience fully running as it was in our research explorations requires time, commitment, and access to expensive equipment. In the future, we hope to turn this repository into a toolkit for easy prototyping of XR telepresence experiences in general, which could be used with both specialized and general-purpose equipment. In the meantime, we try to make this repository as easy-to-understand, easy-to-run as possible. We hope this repository can at least be useful as a set of code samples illustrating how we got the original VROOM system up and running, and hopefully it can help others prototype similar XR telepresence experiences.
 
@@ -49,7 +46,7 @@ To run the system, follow these steps:
 
 4. **Attach the QR-code-like marker patterns to the telepresence robot.** The marker patterns needed can be downloaded from here: https://github.com/qian256/HoloLensARToolKit/tree/master/Markers. The markers should be attached to the robot in a style similar to this:
 
-   [IMAGE ILLUSTRATING THE ROBOT WITH MARKER PATTERNS ATTACHED]
+   <img src="/robot-marker-patterns.png" width=20% height=20%>
 
 5. **Setup and run the 360° streaming from the robot:**
 
