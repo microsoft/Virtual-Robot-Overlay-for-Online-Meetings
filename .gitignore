@@ -1,0 +1,53 @@
+Media/*
+Ignore/*
+Analysis/*
+**/Build
+**/Builds
+!VROOM-Local-AR/Assets/HoloToolkit/Build
+**/BuildUWP
+**/VR360ViewerUWP
+Participant_Avatars/
+
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
+VROOM-Server/cert.pem
+VROOM-Server/key.pem
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+!VROOM-RobotController/VROOM-RobotController/VROOM-RobotController.csproj
+*.pidb
+*.suo
+*.sln
+!VROOM-RobotController/VROOM-RobotController.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ================= #
+# Node.js generated #
+# ================= #
+node_modules/

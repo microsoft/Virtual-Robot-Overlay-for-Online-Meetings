@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VROOM-RobotController", "VROOM-RobotController\VROOM-RobotController.csproj", "{9F792C63-E95E-4B52-97DE-F4DE28DB7F37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F792C63-E95E-4B52-97DE-F4DE28DB7F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F792C63-E95E-4B52-97DE-F4DE28DB7F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F792C63-E95E-4B52-97DE-F4DE28DB7F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F792C63-E95E-4B52-97DE-F4DE28DB7F37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00AE3509-19A2-4367-B903-49D1A93698E2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+{
+   "hair_color" : {
+      "blue" : 26,
+      "green" : 34,
+      "red" : 52
+   },
+   "pipeline" : "animated_face",
+   "pipeline_subtype" : "base/legacy",
+   "skin_color" : {
+      "blue" : 116,
+      "green" : 132,
+      "red" : 182
+   }
+}

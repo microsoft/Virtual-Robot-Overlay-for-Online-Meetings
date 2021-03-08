@@ -1,0 +1,59 @@
+{
+    "blendshapes" : {
+        "base" : [
+            "legacy_45",
+            "visemes_17"
+        ]
+    },
+    "haircuts" : {
+        "base" : [
+            "female_NewSea_J086f",
+            "female_NewSea_J096f",
+            "female_NewSea_J123f",
+            "male_NewSea_J003m",
+            "male_NewSea_J082m",
+            "male_makehuman_short02"
+        ],
+        "facegen" : [
+            "facegen_afro",
+            "facegen_balding",
+            "facegen_bob",
+            "facegen_bob_parted",
+            "facegen_burr_cut",
+            "facegen_classic_side_part",
+            "facegen_classic_tapper",
+            "facegen_corkscrew_curls",
+            "facegen_cowlick",
+            "facegen_cowlick2",
+            "facegen_crew_cut",
+            "facegen_crew_cut2",
+            "facegen_crew_cut3",
+            "facegen_cuckoo_nest",
+            "facegen_curtained_hair",
+            "facegen_flattop",
+            "facegen_high_volume_brushed_up",
+            "facegen_long_afro",
+            "facegen_long_bob",
+            "facegen_long_crimped",
+            "facegen_long_dreads",
+            "facegen_long_hair",
+            "facegen_long_hair2",
+            "facegen_man_bun",
+            "facegen_man_bun2",
+            "facegen_mid_length_messy",
+            "facegen_mid_length_ruffled",
+            "facegen_pigtails",
+            "facegen_ponytail",
+            "facegen_short",
+            "facegen_short_bob_asymmetrical_bangs",
+            "facegen_short_curls",
+            "facegen_short_curls2",
+            "facegen_short_parted",
+            "facegen_side_french_braid",
+            "facegen_straight_bob_bangs",
+            "facegen_top_knot",
+            "facegen_very_long",
+            "facegen_wavy_shag"
+        ]
+    }
+}

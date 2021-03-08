@@ -1,0 +1,59 @@
+{"Registrations":
+  [ 
+    {
+      "component": { 
+       "type": "git", 
+       "git": { 
+         "repositoryUrl": "https://github.com/microsoft/Microsoft-Rocketbox", 
+         "commitHash": "8bae73a8e96e3cd5d550e0592e01d99b8386ec4a" 
+         }
+       }
+    },
+    {
+      "component": { 
+       "type": "git", 
+       "git": { 
+         "repositoryUrl": "https://github.com/microsoft/MixedReality-WebRTC", 
+         "commitHash": "8666f367e61fd478be5433b01939695a33f81d5b" 
+         }
+       }
+    },
+    {
+      "component": { 
+       "type": "git", 
+       "git": { 
+         "repositoryUrl": "https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v1.5.7.0", 
+         "commitHash": "731dd0f0580587362e9e9782fe6699d53d407f08" 
+         }
+       }
+    },
+    {
+      "component": { 
+       "type": "git", 
+       "git": { 
+         "repositoryUrl": "https://github.com/qian256/HoloLensARToolKit", 
+         "commitHash": "6d3560739dbab6cdb8a22396092a4cf3554bb0fc" 
+         }
+       }
+    },
+    {
+      "Component": {
+         "Type": "NuGet",
+         "NuGet": {
+           "Name": "Newtonsoft.Json",
+           "Version": "8.0.3"
+         }
+       }
+    },
+    {
+      "Component": {
+         "Type": "NuGet",
+         "NuGet": {
+           "Name": "InputSimulator",
+           "Version": "1.0.4"
+         }
+       }
+    },
+  ],
+  "Version": 1
+}
