@@ -10,9 +10,13 @@ VROOM is the XR Telepresence technology probe/prototype system featured in these
 - Jones, B., Zhang, Y., Wong, P.N.Y., Rintel, S., and Heshmat, Y. (2020). VR-Enabled Telepresence as a Bridge for People, Environments, and Experiences. In *Social VR: A New Medium for Remote Communication and Collaboration (Workshop at CHI 2020)*.
 
 
-[![VROOM DEMO VIDEO](http://img.youtube.com/vi/9ZZ-YdUU01w/0.jpg)](http://www.youtube.com/watch?v=9ZZ-YdUU01w "VROOM Demo Video")
 <img src="/Figure1-Overview.png" width=50% height=50%>
+
 <img src="/Figure2-System.jpg" width=80% height=80%>
+
+Demo video:
+
+[![VROOM DEMO VIDEO](http://img.youtube.com/vi/9ZZ-YdUU01w/0.jpg)](http://www.youtube.com/watch?v=9ZZ-YdUU01w "VROOM Demo Video")
 
 Contained in this repository is the source code for the VROOM technology probe, slightly modified to include only open-source components. **Please note that as this is a research prototype, the code is not stable and may not be fully functional on your environment.** Furthermore, getting the experience fully running as it was in our research explorations requires time, commitment, and access to expensive equipment. In the future, we hope to turn this repository into a toolkit for easy prototyping of XR telepresence experiences in general, which could be used with both specialized and general-purpose equipment. In the meantime, we try to make this repository as easy-to-understand, easy-to-run as possible. We hope this repository can at least be useful as a set of code samples illustrating how we got the original VROOM system up and running, and hopefully it can help others prototype similar XR telepresence experiences.
 
