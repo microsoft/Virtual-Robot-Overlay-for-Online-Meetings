@@ -4,21 +4,33 @@
   "description": "Server for VROOM",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "preinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
-    "url": "https://msresearch@dev.azure.com/msresearch/VroomHackathon/_git/VROOM"
+    "url": "git+https://github.com/microsoft/Virtual-Robot-Overlay-for-Online-Meetings.git"
   },
   "author": "Microsoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/Virtual-Robot-Overlay-for-Online-Meetings/issues"
+  },
+  "homepage": "https://github.com/microsoft/Virtual-Robot-Overlay-for-Online-Meetings#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "debug": "^4.1.1",
-    "finalhandler": "^1.1.1",
-    "morgan": "^1.9.1",
+    "debug": "^4.3.1",
+    "finalhandler": "^1.1.2",
+    "morgan": "^1.10.0",
     "node-static": "^0.7.11",
-    "peer": "^0.2.10",
-    "router": "^1.3.3"
+    "router": "^1.3.5"
+  },
+  "devDependencies": {
+    "minimist": "^0.2.1"
+  },
+  "resolutions": {
+    "minimist": "^0.2.1"
   }
 }

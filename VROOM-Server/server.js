@@ -1,7 +1,7 @@
 /**
  *
  * server.js
- * Node.js Server
+ * VROOM Server app (Node.js)
  *
  */
 
@@ -19,39 +19,49 @@ const http = require('http');
 const https = require('https');
 
 
-/* MAIN SERVER (Static) */
+/* Web/static server */
 
 const node_static = require('node-static');
 const staticServer = new node_static.Server('../VROOM-360Broadcaster');
 
-const mainServer = https.createServer(options, function(request, response)
+const webServer = https.createServer(options, function(request, response)
 {
 	request.addListener('end', function() {
 		staticServer.serve(request, response);
 	}).resume();
 });
 
-mainServer.listen(8082);
+webServer.listen(8082);
 
 
-/* DSS SERVER */
+/* Server for events and WebRTC signaling */
 
 const finalhandler = require('finalhandler');
 const debug = require('debug')('dss:boot');
-const router = require('./node-dss');
+const router = require('./dss-and-events');
 
+// Non-secure DSS/event server (for Unity), on port 3000
 const dssServer = http.createServer(function (req, res)
 {
   router(req, res, finalhandler(req, res));
 });
-
 const bind = dssServer.listen(process.env.PORT || 3000, () =>
 {
   debug(`online @ ${bind.address().port}`);
 });
 
+// Secure DSS/event server (for web browsers), on port 3001
+const dssServerSecure = https.createServer(options, function (req, res)
+{
+  router(req, res, finalhandler(req, res));
+});
+const bindSec = dssServerSecure.listen(process.env.PORT || 3001, () =>
+{
+  debug(`online @ ${bindSec.address().port}`);
+});
 
-/* STATUS */
+
+/* Status */
 
 var serverStartedDate = Date.now();
 console.log('Server started. [' + (new Date()).toString() + ']');

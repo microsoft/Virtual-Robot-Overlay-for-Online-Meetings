@@ -1,3 +1,14 @@
+/**
+ *
+ * dss-and-events.js
+ * DSS (Dead-Simple Signaling for WebRTC) and Event Server Code
+ *
+ * Based on node-dss (by Ben Greenier): https://github.com/bengreenier/node-dss
+ * Modified to handle both WebRTC signaling and events
+ *
+ */
+
+
 const stream = require('stream')
 const Router = require('router')
 const bodyParser = require('body-parser')
@@ -41,6 +52,9 @@ router.use(bodyParser.raw({ limit: '10mb', type: () => true }))
 
 const bodyDebug = debug.extend('body')
 
+
+/* WebRTC signaling data */
+
 router.post('/data/:id', (req, res) => {
   const deviceId = req.params.id
 
@@ -70,6 +84,9 @@ router.get('/data/:id', (req, res) => {
     res.end(data)
   }
 })
+
+
+/* Event messages */
 
 router.post('/event/:id', (req, res) => {
   const deviceId = req.params.id
